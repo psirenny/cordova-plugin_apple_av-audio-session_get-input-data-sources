@@ -1,7 +1,7 @@
 import AVFoundation
 
-@objc(AppleAVAudioSessionGetRecordPermission)
-class AppleAVAudioSessionGetRecordPermission: CDVPlugin {
+@objc(AppleAVAudioSessionGetInputDataSources)
+class AppleAVAudioSessionGetInputDataSources: CDVPlugin {
   @objc(exec:) func exec(_ command: CDVInvokedUrlCommand) {
     if let dataSources = AVAudioSession.sharedInstance().inputDataSources {
       let value = dataSources.map({ (dataSource: AVAudioSessionDataSourceDescription) in [
