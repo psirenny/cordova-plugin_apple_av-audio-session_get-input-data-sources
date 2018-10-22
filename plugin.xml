@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-apple-av-audio-session-get-input-data-sources" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>AppleAVAudioSessionGetInputDataSources</name>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="AppleAVAudioSessionGetInputDataSources">
+        <param name="ios-package" value="AppleAVAudioSessionGetInputDataSources" />
+      </feature>
+    </config-file>
+    <framework src="AVFoundation.framework" />
+    <source-file src="src/swift/AppleAVAudioSessionGetInputDataSources.swift" />
+  </platform>
+</plugin>
