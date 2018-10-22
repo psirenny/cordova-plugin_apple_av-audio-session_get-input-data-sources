@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin_apple_av-audio-session_get-input-data-sources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin to get AVAudioSession inputDataSources",
   "author": "Dennis Torres <djtorres0@gmail.com>",
   "bugs": "https://github.com/talk-to-track/private/issues",
